@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: ''
-actionText: 起步 →
+actionText: 让我们开始吧 →
 actionLink: /guide/introduce/
 features:
 - title: 还未完成

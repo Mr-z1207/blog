@@ -5,8 +5,8 @@ module.exports = {
     themeConfig: {
         // 导航栏配置
         nav:[
-            {text:'指南', link:'/guide/introduce' },
-            // {text:'生活', link:'/life/life1' },
+            {text:'简介', link:'/guide/' },
+            {text:'生活', link:'/life/01_网盘搜索' },
             // { text: '学习',
             //     items: [
             //         { text: '数学', link: '/study/math/math_01' },
@@ -16,25 +16,15 @@ module.exports = {
         ],
         // 侧边栏设置
         sidebar: {
-            '/guide/': [
+            '/life/': [
                 {
-                    title: '指南',
+                    title: '生活',
                     collapsable: false,
                     children: [
-                        { title: '介绍', path: '/guide/introduce' },
+                        { title: '网盘搜索', path: '/life/01_网盘搜索' },
                     ]
                 }
             ],
-            // '/life/': [
-            //     {
-            //         title: '生活',
-            //         collapsable: false,
-            //         children: [
-            //             { title: '生活测试01', path: '/life/life1' },
-            //             { title: '生活测试02', path: '/life/life2' },
-            //         ]
-            //     }
-            // ],
             // '/study/english/': [
             //     {
             //         title: '英语',
