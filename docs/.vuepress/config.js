@@ -7,12 +7,12 @@ module.exports = {
         nav:[
             {text:'简介', link:'/guide/' },
             {text:'生活', link:'/life/01_网盘搜索' },
-            // { text: '学习',
-            //     items: [
-            //         { text: '数学', link: '/study/math/math_01' },
-            //         { text: '英语', link: '/study/english/english_01' },
-            //     ]
-            // },
+            { text: '学习',
+                items: [
+                    { text: 'Java', link: '/study/Java/001' },
+                    // { text: '英语', link: '/study/english/english_01' },
+                ]
+            },
         ],
         // 侧边栏设置
         sidebar: {
@@ -25,16 +25,16 @@ module.exports = {
                     ]
                 }
             ],
-            // '/study/english/': [
-            //     {
-            //         title: '英语',
-            //         collapsable: false,
-            //         children: [
-            //             { title: '第一节', path: '/study/english/english_01' },
-            //             { title: '第二节', path: '/study/english/english_02' },
-            //         ]
-            //     }
-            // ],
+            '/study/Java/': [
+                {
+                    title: 'Java',
+                    collapsable: false,
+                    children: [
+                        { title: '初识Java', path: '/study/Java/001' },
+                        // { title: '第二节', path: '/study/Java/002' },
+                    ]
+                }
+            ],
             // '/study/math/': [
             //     {
             //         title: '数学',
