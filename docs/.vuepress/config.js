@@ -2,9 +2,9 @@ module.exports = {
     base: '/blog/',
     title: 'Mr-z1207的个人博客',
     description: 'Mr-z1207的个人博客，随笔、随想、随心',
-    head:{
-        ['link', {rel:"shortcut icon",href:"./favicon.ico",type:"image/x-icon"}]
-    },
+    head: [
+        ['link', { rel: 'shortcut icon', type: "image/x-icon", href: `./favicon.ico` }]
+    ],
     themeConfig: {
         // 导航栏配置
         nav:[
