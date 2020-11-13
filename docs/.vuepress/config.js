@@ -31,7 +31,7 @@ module.exports = {
                     collapsable: false,
                     children: [
                         { title: '初识Java', path: '/study/Java/001' },
-                        // { title: '第二节', path: '/study/Java/002' },
+                        { title: '第一个Java程序', path: '/study/Java/002' },
                     ]
                 }
             ],
@@ -46,7 +46,7 @@ module.exports = {
             //     }
             // ],
         },
-        sidebarDepth: 2,//左侧导航显示的层级
+        sidebarDepth: 1,//左侧导航显示的层级
         lastUpdated: 'Last Updated'
     }
 }
