@@ -11,4 +11,4 @@
 *.jpg
 *.png
 *.jpeg
-!blog.png
+!docs/.vuepress/public/blog.png
