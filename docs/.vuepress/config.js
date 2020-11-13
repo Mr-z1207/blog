@@ -1,6 +1,5 @@
 module.exports = {
     base: '/blog/',
-    lang: 'zh-CN',
     title: 'Mr-z1207的个人博客',
     description: 'Mr-z1207的个人博客，随笔、随想、随心',
     head: [
