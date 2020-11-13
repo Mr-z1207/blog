@@ -11,3 +11,4 @@
 *.jpg
 *.png
 *.jpeg
+!docs/blog.png

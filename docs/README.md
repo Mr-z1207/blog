@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: ''
+heroImage: './blog.png'
 actionText: 让我们开始吧 →
 actionLink: /guide/
 features:
