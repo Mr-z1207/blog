@@ -19,6 +19,12 @@ module.exports = {
         ],
         // 侧边栏设置
         sidebar: {
+            '/guide/': [
+                {
+                    title: '介绍',
+                    collapsable: false,
+                }
+            ],
             '/life/': [
                 {
                     title: '生活',
@@ -38,18 +44,8 @@ module.exports = {
                     ]
                 }
             ],
-            // '/study/math/': [
-            //     {
-            //         title: '数学',
-            //         collapsable: false,
-            //         children: [
-            //             { title: '第一节', path: '/study/math/math_01' },
-            //             { title: '第二节', path: '/study/math/math_02' },
-            //         ]
-            //     }
-            // ],
         },
-        sidebarDepth: 1,//左侧导航显示的层级
+        sidebarDepth: 2,//左侧导航显示的层级
         lastUpdated: 'Last Updated'
     }
 }
