@@ -1,5 +1,5 @@
 module.exports = {
-    base: '/blog/',
+    base: '',
     title: 'Mr-z1207的个人博客',
     description: 'Mr-z1207的个人博客，随笔、随想、随心',
     head: [
@@ -9,7 +9,7 @@ module.exports = {
         // 导航栏配置
         nav:[
             {text:'简介', link:'/guide/' },
-            {text:'生活', link:'/life/01_网盘搜索' },
+            {text:'生活杂记', link:'/life/01_网盘搜索' },
             { text: '学习',
                 items: [
                     { text: 'Java', link: '/study/Java/001' },
@@ -19,18 +19,13 @@ module.exports = {
         ],
         // 侧边栏设置
         sidebar: {
-            '/guide/': [
-                {
-                    title: '介绍',
-                    collapsable: false,
-                }
-            ],
             '/life/': [
                 {
                     title: '生活',
                     collapsable: false,
                     children: [
                         { title: '网盘搜索', path: '/life/01_网盘搜索' },
+                        { title: 'Package Control又挂了', path: '/life/02_PackageControl' },
                     ]
                 }
             ],
