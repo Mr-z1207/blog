@@ -18,7 +18,7 @@
 这些都是网上抄的，哈哈哈，反正各种帖子说他就是好用
 :::
 
-## Package Control无法安装？？
+## Package Control无法安装
 
 说到Sublime Text3不得不提的就是他神奇好用的，各种各样的插件了！但是，，，
 

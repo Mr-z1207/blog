@@ -23,6 +23,7 @@
 ![RemoteSigned](http://picgo.mr1207.cn/img/vscode终端报错4.png)
 
 :::tip 提示
+
 1. 必须以管理员身份运行vscode，否则`set-ExecutionPolicy`无法执行；
 2. 举一反三，有时其他编辑器(`HBuilderX`)也会出现相同问题，相同方法即可解决
 :::
