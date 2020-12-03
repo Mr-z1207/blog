@@ -12,14 +12,14 @@
 ![2](http://picgo.mr1207.cn/img/Ubuntu2.png)
 3. 点击浏览，找到下载好要安装的光盘镜像文件`ubantu.ios`
 ![3](http://picgo.mr1207.cn/img/Ubuntu3.png)
-4. 输入指定的信息
+4. 输入指定的信息，用户名啥的（root 和 admin 不要用）
 ![4](http://picgo.mr1207.cn/img/Ubuntu4.png)
     - 全名：用于注册客户机操作系统的名称（如果需要注册）。Workstation Pro 使用名字创建虚拟机的主机名。
     - 用户名：您的用户名。您可以使用小写字母、数字和破折号，但不要在用户名中以破折号作为起始字符。请勿使用 root 作为名称。某些操作系统会为该用户设置 sudo 访问权限，另一些操作系统则要求该用户使用<kbd>su</kbd>来获得 root 用户权限。
     - 密码：**用户名**和`root`用户的密码。
 5. 给虚拟机起个名字，选择一个安装的位置
 ![5](http://picgo.mr1207.cn/img/Ubuntu5.png)
-6. 指定磁盘大小
+6. 指定磁盘大小,默认最小是20G
 ![6](http://picgo.mr1207.cn/img/Ubuntu6.png)
 7. 可以选择自定义硬件更改配置（我用的都是默认）
 ![7](http://picgo.mr1207.cn/img/Ubuntu7.png)
