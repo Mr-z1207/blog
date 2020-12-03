@@ -1,6 +1,6 @@
-# Ubuntu踩坑记录
+# Ubuntu的安装汉化
 
-[TOC]
+[[TOC]]
 
 ## 一、Ubuntu安装
 

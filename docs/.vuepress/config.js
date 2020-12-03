@@ -27,6 +27,7 @@ module.exports = {
                         { title: '网盘搜索', path: '/life/01_网盘搜索' },
                         { title: 'Package Control又挂了', path: '/life/02_PackageControl' },
                         { title: 'vcode终端报错', path: '/life/03_vcode终端报错' },
+                        { title: 'Ubuntu的安装汉化', path: '/life/04_ubuntu' },
                     ]
                 }
             ],
