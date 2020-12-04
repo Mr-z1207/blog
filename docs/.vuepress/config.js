@@ -19,7 +19,7 @@ module.exports = {
                     { text: '数学', link: '/study/math/001' },
                 ]
             },
-            {text:'生活杂记', link:'/life/01_网盘搜索' },
+            {text:'生活杂记', link:'/life/001' },
         ],
         // 侧边栏设置
         sidebar: {
