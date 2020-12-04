@@ -9,35 +9,84 @@ module.exports = {
         // 导航栏配置
         nav:[
             {text:'简介', link:'/guide/' },
-            {text:'生活杂记', link:'/life/01_网盘搜索' },
+            { text: 'Web', link: '/Web/001' },
+            { text: 'Python', link: '/Python/001' },
+            { text: 'Java', link: '/Java/001' },
+            { text: 'Linux', link: '/Linux/001' },
             { text: '学习',
                 items: [
-                    { text: 'Java', link: '/study/Java/001' },
-                    // { text: '英语', link: '/study/english/english_01' },
+                    { text: '英语', link: '/study/english/001' },
+                    { text: '数学', link: '/study/math/001' },
                 ]
             },
+            {text:'生活杂记', link:'/life/01_网盘搜索' },
         ],
         // 侧边栏设置
         sidebar: {
+            '/Web/': [
+                {
+                    title: 'Web',
+                    collapsable: false,
+                    children: [
+                        
+                    ]
+                }
+            ],
+            '/Python/': [
+                {
+                    title: 'Python',
+                    collapsable: false,
+                    children: [
+                        
+                    ]
+                }
+            ],
+            '/Java/': [
+                {
+                    title: 'Java',
+                    collapsable: false,
+                    children: [
+                        { title: '初识Java', path: '/Java/001' },
+                        { title: '第一个Java程序', path: '/Java/002' },
+                    ]
+                }
+            ],
+            '/Linux/': [
+                {
+                    title: 'Linux',
+                    collapsable: false,
+                    children: [
+                        { title: 'Ubuntu的安装汉化', path: '/Linux/001' },
+                    ]
+                }
+            ],
             '/life/': [
                 {
                     title: '生活',
                     collapsable: false,
                     children: [
-                        { title: '网盘搜索', path: '/life/01_网盘搜索' },
-                        { title: 'Package Control又挂了', path: '/life/02_PackageControl' },
-                        { title: 'vcode终端报错', path: '/life/03_vcode终端报错' },
-                        { title: 'Ubuntu的安装汉化', path: '/life/04_ubuntu' },
+                        { title: '网盘搜索', path: '/life/001' },
+                        { title: 'Package Control又挂了', path: '/life/002' },
+                        { title: 'vcode终端报错', path: '/life/003' },
                     ]
                 }
             ],
-            '/study/Java/': [
+
+            '/study/english/': [
                 {
-                    title: 'Java',
+                    title: 'english',
                     collapsable: false,
                     children: [
-                        { title: '初识Java', path: '/study/Java/001' },
-                        { title: '第一个Java程序', path: '/study/Java/002' },
+                        
+                    ]
+                }
+            ],
+            '/study/math/': [
+                {
+                    title: 'math',
+                    collapsable: false,
+                    children: [
+                        
                     ]
                 }
             ],
