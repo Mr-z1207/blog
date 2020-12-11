@@ -13,12 +13,6 @@ module.exports = {
             { text: 'Python', link: '/Python/001' },
             { text: 'Java', link: '/Java/001' },
             { text: 'Linux', link: '/Linux/001' },
-            { text: '学习',
-                items: [
-                    { text: '英语', link: '/study/english/001' },
-                    { text: '数学', link: '/study/math/001' },
-                ]
-            },
             {text:'生活杂记', link:'/life/001' },
         ],
         // 侧边栏设置
@@ -68,25 +62,6 @@ module.exports = {
                         { title: '网盘搜索', path: '/life/001' },
                         { title: 'Package Control又挂了', path: '/life/002' },
                         { title: 'vcode终端报错', path: '/life/003' },
-                    ]
-                }
-            ],
-
-            '/study/english/': [
-                {
-                    title: 'english',
-                    collapsable: false,
-                    children: [
-                        
-                    ]
-                }
-            ],
-            '/study/math/': [
-                {
-                    title: 'math',
-                    collapsable: false,
-                    children: [
-                        
                     ]
                 }
             ],
