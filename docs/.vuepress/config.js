@@ -51,6 +51,7 @@ module.exports = {
                     collapsable: false,
                     children: [
                         { title: 'Ubuntu的安装汉化', path: '/Linux/001' },
+                        { title: 'ContOS 7 的安装', path: '/Linux/002' },
                     ]
                 }
             ],
