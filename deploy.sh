@@ -9,6 +9,10 @@ npm run build
 # 进入生成的文件夹
 cd docs/.vuepress/dist
 
+cat>CNAME<<EOF
+blog.mr1207.cn
+EOF
+
 git init
 git add -A
 git commit -m 'deploy'
