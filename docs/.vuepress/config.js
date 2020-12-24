@@ -8,11 +8,17 @@ module.exports = {
     themeConfig: {
         // 导航栏配置
         nav:[
-            {text:'简介', link:'/guide/' },
+            { text:'简介', link:'/guide/' },
             { text: 'Web', link: '/Web/001' },
             { text: 'Python', link: '/Python/001' },
             { text: 'Java', link: '/Java/001' },
             { text: 'Linux', link: '/Linux/001' },
+            { text: '408', item:[
+                { '数据结构': '/408/数据结构/001'},
+                { '组成原理': '/408/组成原理/001'},
+                { '操作系统': '/408/操作系统/001'},
+                { '网络技术': '/408/网络技术/001'},
+            ]},
             {text:'生活杂记', link:'/life/001' },
         ],
         // 侧边栏设置
