@@ -13,11 +13,11 @@ module.exports = {
             { text: 'Python', link: '/Python/001' },
             { text: 'Java', link: '/Java/001' },
             { text: 'Linux', link: '/Linux/001' },
-            { text: '408', item:[
-                { '数据结构': '/408/数据结构/001'},
-                { '组成原理': '/408/组成原理/001'},
-                { '操作系统': '/408/操作系统/001'},
-                { '网络技术': '/408/网络技术/001'},
+            { text: '408', items:[
+                { text: '数据结构', link: '/408/数据结构/001'},
+                { text: '组成原理', link: '/408/组成原理/001'},
+                { text: '操作系统', link: '/408/操作系统/001'},
+                { text: '网络技术', link: '/408/网络技术/001'},
             ]},
             {text:'生活杂记', link:'/life/001' },
         ],
@@ -72,6 +72,44 @@ module.exports = {
                     ]
                 }
             ],
+/*
+            '/408/数据结构/': [
+                {
+                    title: '数据结构',
+                    collapsable: false,
+                    children: [
+                        { title: '001', path: '/408/数据结构/001' },
+                    ]
+                }
+            ],
+            '/408/数据结构/': [
+                {
+                    title: '数据结构',
+                    collapsable: false,
+                    children: [
+                        { title: '001', path: '/408/数据结构/001' },
+                    ]
+                }
+            ],
+            '/408//': [
+                {
+                    title: '',
+                    collapsable: false,
+                    children: [
+                        { title: '001', path: '/408//001' },
+                    ]
+                }
+            ],
+            '/408/数据结构/': [
+                {
+                    title: '数据结构',
+                    collapsable: false,
+                    children: [
+                        { title: '001', path: '/408/数据结构/001' },
+                    ]
+                }
+            ],
+*/
         },
         sidebarDepth: 2,//左侧导航显示的层级
         lastUpdated: 'Last Updated'
