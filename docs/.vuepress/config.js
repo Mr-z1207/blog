@@ -66,9 +66,8 @@ module.exports = {
                     title: '生活',
                     collapsable: false,
                     children: [
-                        { title: '网盘搜索', path: '/life/001' },
-                        { title: 'Package Control又挂了', path: '/life/002' },
-                        { title: 'vcode终端报错', path: '/life/003' },
+                        { title: 'Package Control又挂了', path: '/life/001' },
+                        { title: 'vcode终端报错', path: '/life/002' },
                     ]
                 }
             ],
