@@ -112,5 +112,9 @@ module.exports = {
         },
         sidebarDepth: 2,//左侧导航显示的层级
         lastUpdated: 'Last Updated'
+    },
+    markdown: {
+        // 显示行号
+        lineNumbers: true
     }
 }
