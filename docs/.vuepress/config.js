@@ -71,44 +71,15 @@ module.exports = {
                     ]
                 }
             ],
-/*
             '/408/数据结构/': [
                 {
                     title: '数据结构',
                     collapsable: false,
                     children: [
-                        { title: '001', path: '/408/数据结构/001' },
+                        { title: '第一章 · 绪论', path: '/408/数据结构/001' },
                     ]
                 }
             ],
-            '/408/数据结构/': [
-                {
-                    title: '数据结构',
-                    collapsable: false,
-                    children: [
-                        { title: '001', path: '/408/数据结构/001' },
-                    ]
-                }
-            ],
-            '/408//': [
-                {
-                    title: '',
-                    collapsable: false,
-                    children: [
-                        { title: '001', path: '/408//001' },
-                    ]
-                }
-            ],
-            '/408/数据结构/': [
-                {
-                    title: '数据结构',
-                    collapsable: false,
-                    children: [
-                        { title: '001', path: '/408/数据结构/001' },
-                    ]
-                }
-            ],
-*/
         },
         sidebarDepth: 2,//左侧导航显示的层级
         lastUpdated: 'Last Updated'
