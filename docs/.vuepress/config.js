@@ -1,7 +1,7 @@
 module.exports = {
     base: '',
-    title: 'Mr-z1207的个人博客',
-    description: 'Mr-z1207的个人博客，随笔、随想、随心',
+    title: 'Mr1207的个人博客',
+    description: 'Mr1207的个人博客，随笔、随想、随心',
     head: [
         ['link', { rel: 'shortcut icon', type: "image/x-icon", href: `./favicon.ico` }]
     ],
