@@ -89,6 +89,7 @@ module.exports = {
                     collapsable: false,
                     children: [
                         { title: '第一章 · 绪论', path: '/408/数据结构/001' },
+                        { title: '第二章 · 线性表', path: '/408/数据结构/002' }
                     ]
                 }
             ],
