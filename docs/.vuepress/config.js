@@ -2,6 +2,13 @@ module.exports = {
     base: '',
     title: 'Mr1207的个人博客',
     description: 'Mr1207的个人博客，随笔、随想、随心',
+    markdown: {
+        // 显示行号
+        lineNumbers: true
+    },
+    plugins: [
+        '@vuepress/back-to-top'
+    ],
     head: [
         ['link', { rel: 'shortcut icon', type: "image/x-icon", href: `./favicon.ico` }]
     ],
@@ -83,9 +90,5 @@ module.exports = {
         },
         sidebarDepth: 2,//左侧导航显示的层级
         lastUpdated: 'Last Updated'
-    },
-    markdown: {
-        // 显示行号
-        lineNumbers: true
     }
 }

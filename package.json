@@ -7,7 +7,10 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "deploy.sh"
   },
   "repository": {
     "type": "git",
@@ -21,6 +24,7 @@
   },
   "homepage": "https://github.com/Mr-z1207/blog#readme",
   "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.8.0",
     "vuepress": "^1.8.0"
   }
 }
