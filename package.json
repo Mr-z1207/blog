@@ -1,25 +1,26 @@
 {
-  "name": "vuepress",
+  "name": "blog",
   "version": "1.0.0",
-  "description": "Mr-z1207的个人博客",
+  "description": "如果你只是想随便用下`VuePress'，你可以在全局安装它：",
   "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "deploy": "deploy.sh"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mr-z1207/Learn-VuePress.git"
+    "url": "git+https://github.com/Mr-z1207/blog.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Mr-z1207/Learn-VuePress/issues"
+    "url": "https://github.com/Mr-z1207/blog/issues"
   },
-  "homepage": "https://github.com/Mr-z1207/Learn-VuePress#readme",
-  "directories": {
-    "doc": "docs"
+  "homepage": "https://github.com/Mr-z1207/blog#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.0"
   }
 }
