@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/Mr-z1207/blog#readme",
   "devDependencies": {
+    "@maginapp/vuepress-plugin-katex": "^1.0.10",
     "@vuepress/plugin-back-to-top": "^1.8.0",
     "vuepress": "^1.8.0"
   }

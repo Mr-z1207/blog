@@ -7,7 +7,12 @@ module.exports = {
         lineNumbers: true
     },
     plugins: [
-        '@vuepress/back-to-top'
+        '@vuepress/back-to-top',              // 返回顶部插件
+
+        '@maginapp/vuepress-plugin-katex',    // 数学公式
+        {
+          delimiters: 'dollars'
+        }
     ],
     head: [
         ['link', { rel: 'shortcut icon', type: "image/x-icon", href: `./favicon.ico` }]
