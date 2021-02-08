@@ -7,11 +7,12 @@ module.exports = {
         lineNumbers: true
     },
     plugins: [
-        '@vuepress/back-to-top',              // 返回顶部插件
-
-        '@maginapp/vuepress-plugin-katex',    // 数学公式
+        // 返回顶部插件
+        '@vuepress/back-to-top',
+        // katex数学公式插件
+        '@maginapp/vuepress-plugin-katex',
         {
-          delimiters: 'dollars'
+          delimiters: 'dollars'  // 格式符号 $
         }
     ],
     head: [
@@ -89,7 +90,8 @@ module.exports = {
                     collapsable: false,
                     children: [
                         { title: '第一章 · 绪论', path: '/408/数据结构/001' },
-                        { title: '第二章 · 线性表', path: '/408/数据结构/002' }
+                        { title: '第二章 · 线性表', path: '/408/数据结构/002' },
+                        { title: '第三章 · 栈和队列', path: '/408/数据结构/003' }
                     ]
                 }
             ],
