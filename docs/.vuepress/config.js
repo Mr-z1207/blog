@@ -26,6 +26,7 @@ module.exports = {
             { text: 'Python', link: '/Python/001' },
             { text: 'Java', link: '/Java/001' },
             { text: 'Linux', link: '/Linux/001' },
+            { text: '材科基', link: '/Materials/001' },
             { text: '408', items:[
                 { text: '数据结构', link: '/408/数据结构/001'},
                 { text: '组成原理', link: '/408/组成原理/001'},
@@ -71,6 +72,26 @@ module.exports = {
                     children: [
                         { title: 'Ubuntu的安装汉化', path: '/Linux/001' },
                         { title: 'ContOS 7 的安装', path: '/Linux/002' },
+                    ]
+                }
+            ],
+            '/Materials/': [
+                {
+                    title: 'Linux',
+                    collapsable: false,
+                    children: [
+                        { title: '第一章 · 引言', path: '/Materials/001' },
+                        { title: '第二章 · 晶体结构', path: '/Materials/002' },
+                        { title: '第三章 · 晶体结构缺陷', path: '/Materials/003' },
+                        { title: '第四章 · 非晶态结构与性质', path: '/Materials/004' },
+                        { title: '第五章 · 表面结构与性质', path: '/Materials/005' },
+                        { title: '第六章 · 相平衡和相图', path: '/Materials/006' },
+                        { title: '第七章 · 扩散', path: '/Materials/007' },
+                        { title: '第八章 · 材料中的相变', path: '/Materials/008' },
+                        { title: '第九章 · 材料制备中的固态反应', path: '/Materials/009' },
+                        { title: '第十章 · 烧结', path: '/Materials/010' },
+                        { title: '第十一章 · 腐蚀与氧化', path: '/Materials/011' },
+                        { title: '第十二章 · 疲劳与断裂', path: '/Materials/012' },
                     ]
                 }
             ],
