@@ -26,13 +26,16 @@ module.exports = {
             { text: 'Python', link: '/Python/001' },
             { text: 'Java', link: '/Java/001' },
             { text: 'Linux', link: '/Linux/001' },
-            { text: '材科基', link: '/Materials/001' },
-            { text: '408', items:[
-                { text: '数据结构', link: '/408/数据结构/001'},
-                { text: '组成原理', link: '/408/组成原理/001'},
-                { text: '操作系统', link: '/408/操作系统/001'},
-                { text: '网络技术', link: '/408/网络技术/001'},
-            ]},
+            {text: '学习杂记', items: [
+                { text: '材科基', link: '/Study/Materials/001' },
+                { text: '数学必背公式', link: '/Study/Math/001' },
+            ] },
+            // { text: '408', items:[
+            //     { text: '数据结构', link: '/408/数据结构/001'},
+            //     { text: '组成原理', link: '/408/组成原理/001'},
+            //     { text: '操作系统', link: '/408/操作系统/001'},
+            //     { text: '网络技术', link: '/408/网络技术/001'},
+            // ]},
             {text:'生活杂记', link:'/life/001' },
         ],
         // 侧边栏设置
@@ -75,23 +78,23 @@ module.exports = {
                     ]
                 }
             ],
-            '/Materials/': [
+            '/Study/Materials/': [
                 {
-                    title: 'Linux',
+                    title: '材科基',
                     collapsable: false,
                     children: [
-                        { title: '第一章 · 引言', path: '/Materials/001' },
-                        { title: '第二章 · 晶体结构', path: '/Materials/002' },
-                        { title: '第三章 · 晶体结构缺陷', path: '/Materials/003' },
-                        { title: '第四章 · 非晶态结构与性质', path: '/Materials/004' },
-                        { title: '第五章 · 表面结构与性质', path: '/Materials/005' },
-                        { title: '第六章 · 相平衡和相图', path: '/Materials/006' },
-                        { title: '第七章 · 扩散', path: '/Materials/007' },
-                        { title: '第八章 · 材料中的相变', path: '/Materials/008' },
-                        { title: '第九章 · 材料制备中的固态反应', path: '/Materials/009' },
-                        { title: '第十章 · 烧结', path: '/Materials/010' },
-                        { title: '第十一章 · 腐蚀与氧化', path: '/Materials/011' },
-                        { title: '第十二章 · 疲劳与断裂', path: '/Materials/012' },
+                        { title: '第一章 · 引言', path: '/Study/Materials/001' },
+                        { title: '第二章 · 晶体结构', path: '/Study/Materials/002' },
+                        { title: '第三章 · 晶体结构缺陷', path: '/Study/Materials/003' },
+                        { title: '第四章 · 非晶态结构与性质', path: '/Study/Materials/004' },
+                        { title: '第五章 · 表面结构与性质', path: '/Study/Materials/005' },
+                        { title: '第六章 · 相平衡和相图', path: '/Study/Materials/006' },
+                        { title: '第七章 · 扩散', path: '/Study/Materials/007' },
+                        { title: '第八章 · 材料中的相变', path: '/Study/Materials/008' },
+                        { title: '第九章 · 材料制备中的固态反应', path: '/Study/Materials/009' },
+                        { title: '第十章 · 烧结', path: '/Study/Materials/010' },
+                        { title: '第十一章 · 腐蚀与氧化', path: '/Study/Materials/011' },
+                        { title: '第十二章 · 疲劳与断裂', path: '/Study/Materials/012' },
                     ]
                 }
             ],
@@ -105,17 +108,17 @@ module.exports = {
                     ]
                 }
             ],
-            '/408/数据结构/': [
-                {
-                    title: '数据结构',
-                    collapsable: false,
-                    children: [
-                        { title: '第一章 · 绪论', path: '/408/数据结构/001' },
-                        { title: '第二章 · 线性表', path: '/408/数据结构/002' },
-                        { title: '第三章 · 栈和队列', path: '/408/数据结构/003' }
-                    ]
-                }
-            ],
+            // '/408/数据结构/': [
+            //     {
+            //         title: '数据结构',
+            //         collapsable: false,
+            //         children: [
+            //             { title: '第一章 · 绪论', path: '/408/数据结构/001' },
+            //             { title: '第二章 · 线性表', path: '/408/数据结构/002' },
+            //             { title: '第三章 · 栈和队列', path: '/408/数据结构/003' }
+            //         ]
+            //     }
+            // ],
         },
         sidebarDepth: 2,//左侧导航显示的层级
         lastUpdated: 'Last Updated'
