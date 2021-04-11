@@ -29,13 +29,13 @@ module.exports = {
             {text: '学习杂记', items: [
                 { text: '材科基', link: '/Study/Materials/001' },
                 { text: '数学必背公式', link: '/Study/Math/001' },
+                { text: '408', items: [
+                    { text: '数据结构', link: '/Study/408/数据结构/001'},
+                    { text: '组成原理', link: '/Study/408/组成原理/001'},
+                    { text: '操作系统', link: '/Study/408/操作系统/001'},
+                    { text: '网络技术', link: '/Study/408/网络技术/001'},
+                ]}
             ] },
-            // { text: '408', items:[
-            //     { text: '数据结构', link: '/408/数据结构/001'},
-            //     { text: '组成原理', link: '/408/组成原理/001'},
-            //     { text: '操作系统', link: '/408/操作系统/001'},
-            //     { text: '网络技术', link: '/408/网络技术/001'},
-            // ]},
             {text:'生活杂记', link:'/life/001' },
         ],
         // 侧边栏设置
@@ -108,17 +108,17 @@ module.exports = {
                     ]
                 }
             ],
-            // '/408/数据结构/': [
-            //     {
-            //         title: '数据结构',
-            //         collapsable: false,
-            //         children: [
-            //             { title: '第一章 · 绪论', path: '/408/数据结构/001' },
-            //             { title: '第二章 · 线性表', path: '/408/数据结构/002' },
-            //             { title: '第三章 · 栈和队列', path: '/408/数据结构/003' }
-            //         ]
-            //     }
-            // ],
+            '/Study/408/数据结构/': [
+                {
+                    title: '数据结构',
+                    collapsable: false,
+                    children: [
+                        { title: '第一章 · 绪论', path: '/Study/408/数据结构/001' },
+                        { title: '第二章 · 线性表', path: '/Study/408/数据结构/002' },
+                        { title: '第三章 · 栈和队列', path: '/Study/408/数据结构/003' }
+                    ]
+                }
+            ],
         },
         sidebarDepth: 2,//左侧导航显示的层级
         lastUpdated: 'Last Updated'
