@@ -119,6 +119,15 @@ module.exports = {
                     ]
                 }
             ],
+            '/Study/Math/': [
+                {
+                    title: '考研数学必背公式',
+                    collapsable: false,
+                    children: [
+                        { title: '三角函数常用公式及特殊图形曲线', path: '/Study/Math/001' },
+                    ]
+                }
+            ],
         },
         sidebarDepth: 2,//左侧导航显示的层级
         lastUpdated: 'Last Updated'
