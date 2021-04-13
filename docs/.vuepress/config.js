@@ -124,7 +124,7 @@ module.exports = {
                     title: '考研数学必背公式',
                     collapsable: false,
                     children: [
-                        { title: '三角函数常用公式及特殊图形曲线', path: '/Study/Math/001' },
+                        { title: '常用中学公式', path: '/Study/Math/001' },
                     ]
                 }
             ],
