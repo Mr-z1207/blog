@@ -130,6 +130,19 @@ module.exports = {
             ],
         },
         sidebarDepth: 2,//左侧导航显示的层级
-        lastUpdated: 'Last Updated'
+        lastUpdated: 'Last Updated', //最后编辑时间
+
+        // 仓库链接
+        repo: 'Mr-z1207/blog',
+        repoLabel: '查看源码',
+
+        // 假如文档不是放在仓库的根目录下：
+        docsDir: 'docs',
+        // 假如文档放在一个特定的分支下：
+        docsBranch: 'master',
+        // 默认是 false, 设置为 true 来启用
+        editLinks: true,
+        // 默认为 "Edit this page"
+        editLinkText: '如有错误请帮助我们改善此页面！'
     }
 }
