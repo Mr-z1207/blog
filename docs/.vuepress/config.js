@@ -27,7 +27,7 @@ module.exports = {
             { text: 'Java', link: '/Java/001' },
             { text: 'Linux', link: '/Linux/001' },
             {text: '学习杂记', items: [
-                { text: '材科基', link: '/Study/Materials/001' },
+                { text: '材科基', link: '/Study/Materials/000' },
                 { text: '数学必背公式', link: '/Study/Math/001' },
                 { text: '408', items: [
                     { text: '数据结构', link: '/Study/408/数据结构/001'},
@@ -83,6 +83,7 @@ module.exports = {
                     title: '材科基',
                     collapsable: false,
                     children: [
+                        { title: '考点总结', path: '/Study/Materials/000' },
                         { title: '第一章 · 引言', path: '/Study/Materials/001' },
                         { title: '第二章 · 晶体结构', path: '/Study/Materials/002' },
                         { title: '第三章 · 晶体结构缺陷', path: '/Study/Materials/003' },
