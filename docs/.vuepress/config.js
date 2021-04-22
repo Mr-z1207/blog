@@ -83,7 +83,7 @@ module.exports = {
                     title: '材科基',
                     collapsable: false,
                     children: [
-                        { title: '考点总结', path: '/Study/Materials/000' },
+                        // { title: '考点总结', path: '/Study/Materials/000' },
                         { title: '第一章 · 引言', path: '/Study/Materials/001' },
                         { title: '第二章 · 晶体结构', path: '/Study/Materials/002' },
                         { title: '第三章 · 晶体结构缺陷', path: '/Study/Materials/003' },
@@ -126,6 +126,8 @@ module.exports = {
                     collapsable: false,
                     children: [
                         { title: '常用中学公式', path: '/Study/Math/001' },
+                        { title: '极限', path: '/Study/Math/002' },
+                        { title: '微分', path: '/Study/Math/004' },
                     ]
                 }
             ],
