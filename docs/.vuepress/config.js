@@ -27,7 +27,7 @@ module.exports = {
             { text: 'Java', link: '/Java/001' },
             { text: 'Linux', link: '/Linux/001' },
             {text: '学习杂记', items: [
-                { text: '材科基', link: '/Study/Materials/000' },
+                { text: '材科基', link: '/Study/Materials/001' },
                 { text: '数学必背公式', link: '/Study/Math/001' },
                 { text: '408', items: [
                     { text: '数据结构', link: '/Study/408/数据结构/001'},
@@ -127,7 +127,8 @@ module.exports = {
                     children: [
                         { title: '常用中学公式', path: '/Study/Math/001' },
                         { title: '极限', path: '/Study/Math/002' },
-                        { title: '微分', path: '/Study/Math/004' },
+                        { title: '微分', path: '/Study/Math/003' },
+                        { title: '积分', path: '/Study/Math/004' },
                     ]
                 }
             ],
