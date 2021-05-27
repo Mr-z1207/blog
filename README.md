@@ -1,13 +1,18 @@
 # Learn-VuePress
 
-~~如果你只是想随便用下`VuePress'，你可以在全局安装它：~~
-
 现在不推荐全局安装了
 
-## 全局安装
+~~如果你只是想随便用下`VuePress'，你可以在全局安装它：~~
+
+## ~~全局安装~~
 
 ```node
-yarn global add vuepress # 或 npm install -g vuepress
+// yarn global add vuepress # 或 npm install -g vuepress
+```
+## 将 VuePress 安装为本地依赖
+
+```node
+yarn add -D vuepress # npm install -D vuepress
 ```
 
 ## 创建一个 markdown 文件

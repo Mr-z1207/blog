@@ -1,7 +1,6 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "如果你只是想随便用下`VuePress'，你可以在全局安装它：",
   "main": "index.js",
   "directories": {
     "doc": "docs"
