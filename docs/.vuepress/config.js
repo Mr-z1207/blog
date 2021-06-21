@@ -106,6 +106,7 @@ module.exports = {
                     children: [
                         { title: 'Package Control又挂了', path: '/life/001' },
                         { title: 'vcode终端报错', path: '/life/002' },
+                        { title: 'u盘文件或目录损坏且无法读取', path: '/life/003' },
                     ]
                 }
             ],
