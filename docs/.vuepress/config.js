@@ -27,6 +27,7 @@ module.exports = {
             { text: 'Java', link: '/Java/001' },
             { text: 'Linux', link: '/Linux/001' },
             {text: '学习杂记', items: [
+                { text: '考研日语203', link: '/Study/Japanese/001' },
                 { text: '材科基', link: '/Study/Materials/001' },
                 { text: '数学必背公式', link: '/Study/Math/001' },
                 { text: '408', items: [
@@ -130,6 +131,29 @@ module.exports = {
                         { title: '极限', path: '/Study/Math/002' },
                         { title: '微分', path: '/Study/Math/003' },
                         { title: '积分', path: '/Study/Math/004' },
+                    ]
+                }
+            ],
+            '/Study/Japanese/': [
+                {
+                    title: '考研日语203',
+                    collapsable: false,
+                    children: [
+                        { title: '一 · 五十音图', path: '/Study/Japanese/001' },
+                        { title: '二、一 · 名词判断句', path: '/Study/Japanese/002' },
+                        { title: '二、二 · 存在句', path: '/Study/Japanese/003' },
+                        { title: '三、一 · 动词的分类及变形', path: '/Study/Japanese/004' },
+                        { title: '三、二 · 形容词1类', path: '/Study/Japanese/005' },
+                        { title: '三、三 · 形容词2类', path: '/Study/Japanese/006' },
+                        { title: '四、一 · 动词的「ます」形', path: '/Study/Japanese/007' },
+                        { title: '四、二 · 动词的「て」形', path: '/Study/Japanese/008' },
+                        { title: '四、三 · 动词的意志形', path: '/Study/Japanese/009' },
+                        { title: '四、四 · 动词的可能形', path: '/Study/Japanese/010' },
+                        { title: '四、五 · 动词的假定形', path: '/Study/Japanese/011' },
+                        { title: '四、六 · 动词的被动型', path: '/Study/Japanese/012' },
+                        { title: '四、七 · 动词的使役形', path: '/Study/Japanese/013' },
+                        { title: '四、八 · 动词的使役被动形', path: '/Study/Japanese/014' },
+                        { title: '四、九 · 敬体与简体', path: '/Study/Japanese/015' },
                     ]
                 }
             ],
