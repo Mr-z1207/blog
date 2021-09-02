@@ -22,20 +22,20 @@ module.exports = {
         // 导航栏配置
         nav:[
             { text:'简介', link:'/guide/' },
-            { text: 'Web', link: '/Web/001' },
-            { text: 'Python', link: '/Python/001' },
-            { text: 'Java', link: '/Java/001' },
-            { text: 'Linux', link: '/Linux/001' },
+            // { text: 'Web', link: '/Web/001' },
+            // { text: 'Python', link: '/Python/001' },
+            // { text: 'Java', link: '/Java/001' },
+            // { text: 'Linux', link: '/Linux/001' },
             {text: '学习杂记', items: [
-                { text: '考研日语203', link: '/Study/Japanese/001' },
+                // { text: '考研日语203', link: '/Study/Japanese/001' },
                 { text: '材科基', link: '/Study/Materials/001' },
                 { text: '数学必背公式', link: '/Study/Math/001' },
-                { text: '408', items: [
-                    { text: '数据结构', link: '/Study/408/数据结构/001'},
-                    { text: '组成原理', link: '/Study/408/组成原理/001'},
-                    { text: '操作系统', link: '/Study/408/操作系统/001'},
-                    { text: '网络技术', link: '/Study/408/网络技术/001'},
-                ]}
+                // { text: '408', items: [
+                //     { text: '数据结构', link: '/Study/408/数据结构/001'},
+                //     { text: '组成原理', link: '/Study/408/组成原理/001'},
+                //     { text: '操作系统', link: '/Study/408/操作系统/001'},
+                //     { text: '网络技术', link: '/Study/408/网络技术/001'},
+                // ]}
             ] },
             {text:'生活杂记', link:'/life/001' },
         ],
