@@ -26,5 +26,6 @@
     "@maginapp/vuepress-plugin-katex": "^1.0.10",
     "@vuepress/plugin-back-to-top": "^1.8.0",
     "vuepress": "^1.8.0"
-  }
+  },
+  "description": "现在不推荐全局安装了"
 }
