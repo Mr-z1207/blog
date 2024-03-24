@@ -1,6 +1,7 @@
 ---
 home: true
 heroImage: /blog.png
+heroHeight: 180
 heroText: Mr1207_songの博客
 tagline: 好记性不如烂笔头（烂键盘）
 actions:
