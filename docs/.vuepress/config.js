@@ -195,6 +195,7 @@ export default defineUserConfig({
           {text: 'Package Control又挂了', link: '/life/001'},
           {text: 'vcode终端报错', link: '/life/002'},
           {text: 'u盘文件或目录损坏且无法读取', link: '/life/003'},
+          {text: '260401-丽江大理旅游', link: '/life/004'},
         ]
       }],
     },
